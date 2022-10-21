@@ -20,6 +20,7 @@ Coding Questions:
 1. In the below code, list1 declared with var, list2 with final and list3 with const. What is the difference between these lists? Will the last two lines compile?
 
 Ans: list1 declared with var so data type for list is List<String> the data type cannot be changes values ca be changed, list2 with final so values can be detected at the runtime. list3 with const the values can be detected at complete time.  list2[2]='Dart' will be complied. But  const list3= list1; it will Not a constant expression.
+ 
 2. Identify the problem in the following code block and correct it.
  
 Method name should in lowerCamelCase. correct Name would be: longOperationMethod();
@@ -32,4 +33,5 @@ ChangeNotifierProvider(
   create: (context) => DataModel(),
   child: ...
 )
+ 
 Finllay i dont have idea about Mobx.
