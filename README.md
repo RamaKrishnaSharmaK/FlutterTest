@@ -20,12 +20,13 @@ BuildContext is a locator that is used to track each widget in a tree and locate
 Coding Questions:
 1. In the below code, list1 declared with var, list2 with final and list3 with const. What is the difference between these lists? Will the last two lines compile?
 
-Ans: list1 declared with var so data type for list is List Of String data type cannot be changes values ca be changed, list2 with final so values can be detected at the runtime. list3 with const the values can be detected at complete time.  list2[2]='Dart' will be complied. But  const list3= list1; it will Not a constant expression.
+Ans: list1 declared with var so data type for list is List Of String data type cannot be changes values can be changed, list2 with final so values can be detected at the runtime. list3 with const the values can be detected at complete time.  list2[2]='Dart' will be complied. But  const list3= list1; it will Not a constant expression.
  
 2. Identify the problem in the following code block and correct it.
  
 Method name should in lowerCamelCase. correct Name would be: longOperationMethod();
 Class members, top-level definitions, variables, parameters, named parameters and named constructors should capitalize the first letter of each word except the first word, and use no separators.
+
 3. What is the main difference between Mobx & Provider? Can we use both together? Write code to demonstrate it.
  
 The provider package is an easy to use package which is basically a wrapper around the InheritedWidgets that makes it easier to use and manage. It provides a state management technique that is used for managing a piece of data around the app.
@@ -35,4 +36,4 @@ ChangeNotifierProvider(
   child: ...
 )
  
-Finllay i dont have idea about Mobx.
+Finally i dont have idea about Mobx.
