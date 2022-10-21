@@ -10,3 +10,4 @@ Ans: Easiest ways to avoid unwanted reBuilds that are caused usually by calling 
 Ans:By using Method Channel. 
 Flutter code, Client and the platform code and Host binds to a common Method Channel. Client sends message to the Host through the Method Channel. Host listens on the Method  Channel, receives the message and does the necessary functionality and finally, returns the result to the Client through Method Channel.
 4. What is BuildContext? What is its importance?
+BuildContext is a locator that is used to track each widget in a tree and locate them and their position in the tree. The BuildContext of each widget is passed to their build method. Remember that the build method returns the widget tree a widget renders. Each BuildContext is unique to a widget.
